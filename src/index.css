@@ -1,0 +1,213 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+
+  /*===== Colors =====*/
+  --first-color: #FFF;
+  --first-color-dark: #2F0A0D;
+  --text-color: #fff;
+  --first-color-light: #ccf2fa;
+  --first-color-lighten: #6e6d6d;
+
+  /*===== Font and typography =====*/
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 2.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*===== Font weight =====*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*===== Margenes =====*/
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /*===== z index =====*/
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --biggest-font-size: 4.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*===== BASE =====*/
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /*margin: var(--header-height) 0 0 0;*/
+  font-family: var(--body-font);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  background-color: var(--first-color-lighten);
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+h1, h2, h3, ul, p {
+  margin: 0;
+}
+
+h2, h3 {
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*===== CLASS CSS =====*/
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  margin-top: var(--mb-3);
+  margin: 0 auto;
+}
+img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: auto;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.delete-btn {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  margin-top: var(--mb-2);
+  padding: 5px 20px;
+  background: transparent;
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+}
+button {
+  font-family: inherit;
+  background: transparent;
+  border: none;
+  color: #15bfd1;
+}
+.single-tour {
+
+  margin: var(--mb-6) var(--mb-1);
+}
+.tour-info {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-price {
+  padding: var(--mb-1);
+  border-radius: 10px;
+  background-color: #aee7ed;
+  cursor: pointer;
+  color: #015058;
+
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+/*===== LAYOUT =====*/
+
+
+/*===== NAV =====*/
+
+
+/* Show menu */
+
+
+/* Active menu */
+
+
+/* Change background header */
+
+
+/*===== SCROLL TOP =====*/
+
+
+/* Show scroll top */
+
+
+/*===== HOME =====*/
+
+
+/*BUTTONS*/
+
+
+/*===== ABOUT =====*/
+
+
+/*===== QUALIFICATION =====*/
+
+
+/*===== SERVICES =====*/
+
+
+/*===== PROJECT IN MIND =====*/
+
+
+/*===== PORTFOLIO =====*/
+
+
+/* Active menu portfolio*/
+
+
+/*===== TESTIMONIAL =====*/
+
+
+/*===== CONTACTME =====*/
+
+
+/*===== FOOTER =====*/
+
+
+/*===== MEDIA QUERIES =====*/
